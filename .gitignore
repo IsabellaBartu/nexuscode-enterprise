@@ -1,0 +1,58 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.vite/
+.temp/
+tmp/
+
+# Cobertura de testes
+coverage/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Chaves e credenciais
+firebase-key.json
+serviceAccountKey.json
+credentials.json
+*.pem
+*.key
+*.p12
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.pid
+
+# Pacotes da extensão Chrome
+*.crx
+*.zip
