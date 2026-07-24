@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>NexusCode Ativação</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background: #0f1117; 
+            color: #fff; 
+            width: 300px; 
+            padding: 16px; 
+            margin: 0; 
+            box-sizing: border-box; 
+        }
+        h2 { 
+            font-size: 16px; 
+            margin-bottom: 12px; 
+            color: #3b82f6; 
+            text-align: center; 
+        }
+        .input-group { 
+            margin-bottom: 10px; 
+        }
+        label { 
+            display: block; 
+            font-size: 11px; 
+            color: #8b949e; 
+            margin-bottom: 4px; 
+        }
+        input { 
+            width: 100%; 
+            padding: 8px; 
+            background: #161b22; 
+            border: 1px solid #30363d; 
+            color: #fff; 
+            border-radius: 6px; 
+            box-sizing: border-box; 
+            font-size: 12px; 
+            outline: none; 
+        }
+        input:focus { 
+            border-color: #3b82f6; 
+        }
+        button { 
+            width: 100%; 
+            background: #238636; 
+            color: #ffffff; 
+            border: none; 
+            padding: 8px; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            margin-top: 8px; 
+            font-size: 12px; 
+        }
+        button:hover { 
+            background: #2ea043; 
+        }
+        #status { 
+            font-size: 11px; 
+            text-align: center; 
+            margin-top: 10px; 
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+    <h2>NexusCode Access</h2>
+    
+    <div class="input-group">
+        <label for="userEmail">E-mail da Conta</label>
+        <input type="email" id="userEmail" placeholder="seu@email.com">
+    </div>
+    
+    <div class="input-group">
+        <label for="licenseKey">Chave de Licença</label>
+        <input type="text" id="licenseKey" placeholder="Insira a chave de licença">
+    </div>
+    
+    <button id="activateBtn">Ativar Licença</button>
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
